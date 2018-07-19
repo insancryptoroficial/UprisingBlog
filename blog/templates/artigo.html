@@ -1,0 +1,45 @@
+{% extends "post.html" %}
+
+{% block titulo %}{{ lista_artigo.titulo }} - {{ block.super }}{% endblock %}
+
+{% block conteudo %}
+        <section class="page-header-wrapper">
+            <h1 class="page-title">{{ lista_artigo.titulo }}</h1>
+        </section>
+    </section>
+<section class="page-body">
+<section class="page-content main-content video-conteudo-area top-content">
+<section class="page-content-wrapper">
+<section class="body-menu-top">Publicado há {{ lista_artigo.publicacao|timesince }}</section>
+
+<span style="font-family: sans-serif;"><!-- Conteudo -->
+{{ lista_artigo.conteudo|linebreaks }}
+</span></section>
+        </section>
+
+        <section id="content-end"></section>
+
+        <section class="page-content page-info ">
+                <section class="page-content-wrapper">
+                    <div class="autor-info-area">
+                            <figure>
+                                <img src="../media/374674_20160608110054.png" alt="autor">
+                            </figure>
+                            <div class="autor-info">
+                                Por <a href="../WanderMoraes/" title="Sobre o autor" class="autor-nome">Wander Moraes</a>
+                            </div>
+                    </div>
+                </section>
+        </section>
+</section>
+
+	<div class="artigo">
+		<h2></h2>
+
+		<div class="conteudo">
+			<br/><hr>
+			
+		</div>
+	</div>
+{% endblock %}
+
