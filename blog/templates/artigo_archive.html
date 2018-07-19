@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+{% for artigo in lista_itens %}
+				<div class="series-card">
+                    <div class="card-image">
+                        <img src="/media/emoji.jpg" alt="GO Tour">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-name" style="font-family: sans-serif;"><b>
+                           {{ artigo.titulo }}
+                        </b></div>
+                    </div>
+                    <a class="card-cta" href="/artigo/{{ artigo.id }}" style="font-family: sans-serif;">
+                         Ver Postagem
+                    </a>
+                </div>
+{% endfor %}
+{% endblock %}
+

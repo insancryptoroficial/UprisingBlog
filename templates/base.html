@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>{% block titulo %}UPRISING|blog{% endblock %}</title> 
+		<meta http-equiv="content-language" content="pt-br">
+		<!-- FAVICON HTML5-->
+		<link rel="icon" href="../media/logo.png">
+		<!-- FAVICON IE-->
+		<link rel="icon" type="image/png" href="../media/logo.png">
+		<link href="#" rel="publisher">
+		<!-- FONTE HEADER FOOTER -->
+		<link href="../media/css" rel="stylesheet">
+		<!-- FONTE HEADER FOOTER -->
+			
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="../media/devmedia.prod.css">
+
+		<!-- CSS - HEADER E FOOTER -->
+		<link rel="stylesheet" type="text/css" href="../media/devmedia-header-footer.min.css">
+		<!-- <link rel="stylesheet" type="text/css" href="//www.devmedia.com.br/includeb/style.min.css"> -->
+
+		<link rel="stylesheet" href="../media/style-serie.css">		
+		<!-- SCRIPTS -->
+		<script type="text/javascript" async="" src="../media/js"></script>
+		<script type="text/javascript" async="" src="../media/analytics.js.download"></script>
+		<script type="text/javascript" async="" src="../media/analytics.js.download"></script>
+		<script type="text/javascript" async="" src="../media/3c87d8b151f544a25289b55ced5920f9.js.download"></script>
+		<script async="" src="../media/uwt.js.download"></script>
+		<script src="../media/1701038830155422" async=""></script>
+		<script src="../media/identity.js.download" async=""></script>
+		<script async="" src="../media/fbevents.js.download"></script>
+		<script async="" src="../media/gtm.js.download"></script>
+		<script src="../media/jquery.min.js.download"></script>
+	<link type="text/css" rel="stylesheet" href="../media/httpFront-v4.css">
+</head>
+
+<body class="hellobar hellobar-on">
+		<section class="container-site-devmedia">
+			
+<!-- LINKS ONDE A HELLOBAR NÃƒO APARECE -->
+    <!-- HELLO BAR DESTACK -->
+    <style>
+		.pos_relative{position: relative;}
+		.i_pos_relative{position: relative !important;}
+		.pos_fixed{position:fixed;}
+		.i_pos_fixed{position:fixed !important;}
+		.pos_absolute{position:absolute;}
+		.i_pos_absolute{position:absolute !important;}
+        .g_padding_top{padding-top:75px;}
+        .zero_pad{padding-top: 0;}
+        .container-site-devmedia{padding-top:0 !important;}
+        .page-mvp {width: 154px !important;height: 44px;border: 1px solid #EDEDED;border-radius: 30px;margin: 0 40px;}
+    </style>
+            <style>
+        header.header-site-devmedia{position:relative;}
+        </style>
+        <style>
+        .menu_guiaExterna{top:130px;}
+		.under_hellobar_closed { animation: under_hellobarClosed .3s ease-in 1 forwards;background: rgba(242, 244, 245, 1);display: flex;justify-content: center;}
+		.moveHeader { top: 80px !important; }
+		.under_hellobar_wrapper { width: 100%; height: 0px;background:rgba(242, 244, 245, 1); position: relative; display: flex; justify-content: center; animation-name: under_hellobar; animation-duration: .3s;  animation-delay: .1s; animation-fill-mode: forwards;}
+		@keyframes under_hellobar {
+
+		from { height: 0px; }
+		to {  height: 55px; }
+
+		}
+
+		@keyframes under_hellobarClosed {
+			from { height: 55px; }
+			to {  height: 0px; }
+		}
+
+		.under_hellobar_container { max-width: 1100px; display: flex;	align-items: center; opacity: 0; animation: under_hellobarContainer .3s ease-in .1s 1 forwards; margin-left: 55px;}
+		@keyframes under_hellobarContainer {
+			from { opacity: 0; }
+			to { opacity: 1; }
+
+        }
+
+		.under_hellobar_closed .under_hellobar_container { animation: under_hellobarContainerClosed .3s ease-in 1 forwards; }
+		@keyframes under_hellobarContainerClosed {
+			from { opacity: 1; }
+			to { opacity: 0; }
+		}
+		.under_hellobar_container p {font-family: Montserrat, sans-serif;font-weight: normal;font-size: 16px;color: rgb(59, 60, 62); }
+		/*.under_hellobar_container p {font-family: Montserrat, sans-serif;font-weight: normal;font-size: 16px;color: #fff; }*/
+		.under_hellobar_btn {margin-left: 10px;font-size: 16px;color: #253A44;font-family: Montserrat, sans-serif;font-weight: 600;text-decoration: none;}
+		/*.under_hellobar_btn {font-size: 16px;color: #fff;font-family: Montserrat, sans-serif;font-weight: bold;text-decoration: none;}*/
+		.under_hellobar_container img:first-child { margin-right: 10px;width: 36px;height: auto; }
+		.under_hellobar_container img:last-child { margin-left: 40px; }
+		.under_hellobar_close { position: absolute; right: 40px; top: 50%; transform: translateY(-50%); display: flex; width: 40px; height: 40px; cursor: pointer; }
+		.under_hellobar_close:after { content: ""; width: 20px; height: 2px; background-color: rgba(135, 149, 162, 1); position: relative; top: 45%; right: 50%; transform: rotate(-45deg) translate(45%, 50%); transform-origin: right; transition: all .5s; }
+		.under_hellobar_close:before { content: ""; width: 20px; height: 2px; background-color: rgba(135, 149, 162, 1); transform: rotate(45deg) translate(-45%, 50%); transform-origin: left; position: relative; top: 45%; left: 50%; transition: all .5s; }
+		.under_hellobar_close:hover:after { transform: rotate(-405deg) translate(45%, 50%); }
+		.under_hellobar_close:hover:before { transform: rotate(-315deg) translate(-45%, 50%); }
+
+		@media screen and (max-width: 1280px) {
+		.under_hellobar_wrapper { justify-content: left; }    
+		.under_hellobar_container { margin: 0 auto; }
+		.under_hellobar_container p { font-size: 16px; }
+		.under_hellobar_btn { font-size: 14px; }
+
+		}
+
+		@media screen and (max-width: 1050px) {
+		.under_hellobar_container img:last-child { display: none; }
+		.under_hellobar_close { right: 10px; }
+
+		}
+
+		@media screen and (max-width: 767px) {
+		.under_hellobar_wrapper { display: none; }
+		.header-site-devmedia{position:fixed !important;top:0 !important;}
+		.content-site-devmedia{padding-top:75px;}
+		}
+	</style>
+
+    <script>	
+        var canCheckHeight = true;
+		$(document).ready(function(){
+			//$(".header-site-devmedia").addClass('moveHeader')
+			$("body").addClass("hellobar");
+			$("body").addClass("hellobar-on");
+			$(".menu_guiaExterna").css("top","130px");
+            $("#viewaula #menu-aula").css("top","130px");
+			$(".menu-aula-float-button").css("top","145px");
+			$("#nav-projeto").css("top","130px");
+            $(".menu-usuario-devmedia").addClass("pos_absolute");
+            $("header.header-site-devmedia").addClass("i_pos_relative");
+            //$(".container-site-devmedia").addClass("zero_pad");
+			$('.under_hellobar_close').on("click", function(){
+				$(".menu_guiaExterna").css("top","75px");
+                $('.under_hellobar_wrapper' ).addClass('under_hellobar_closed');
+                $('.under_hellobar_wrapper' ).removeClass('under_hellobar_wrapper');
+				$("body").removeClass("hellobar-on");
+                $("body").addClass("hellobar-off");
+                $("#viewaula #menu-aula").css("top","75px");
+				$("#nav-projeto").css("top","75px");
+				$(".under_hellobar_close").css("display","none");
+				canCheckHeight = false;
+			});
+        });
+
+		$(window).scroll(function(){ showHelloBar(); });
+		function showHelloBar(){
+			if($(window).scrollTop() > 55){
+				//console.log($(".header-site-devmedia").css("position"));
+                if( $(".header-site-devmedia").css("position")=="relative")
+                {
+                    var altura_topo = $(".header-site-devmedia").innerHeight();
+                    var altura_hello_bar = $(".under_hellobar_wrapper").innerHeight();
+
+                    var top_menu = altura_topo + altura_hello_bar;
+                    var subtrai_altura = 110 + altura_hello_bar;
+
+                    $(".menu_guiaExterna").css("cssText","top: 130px !important; height: calc(100vh - " + subtrai_altura + "px) !important;");
+                }
+                else
+                {
+                    var altura_topo = $(".header-site-devmedia").innerHeight();
+
+                    var subtrai_altura = 110;
+
+                    $(".menu_guiaExterna").css("cssText","top: 75px !important; height: calc(100vh - " + subtrai_altura + "px) !important;");	
+				}
+				
+				$(".header-site-devmedia").removeClass("pos_relative i_pos_relative pos_fixed i_pos_fixed pos_absolute i_pos_absolute");
+				$(".header-site-devmedia").addClass("i_pos_fixed");
+                $("#viewaula #menu-aula").css("top","75px");
+				$("#nav-projeto").css("top","75px");
+				$(".content-site-devmedia").addClass("g_padding_top");
+                /*$(".video-conteudo-area .aula-conteudo-wrapper").css("padding-top","75px");
+                $(".video-conteudo-area #projeto-topo").css("padding-top","75px");*/
+                $(".menu-aula-float-button").css("top","90px");
+	        }
+            else
+            {
+                if( $(".header-site-devmedia").css("position")=="relative")
+                {
+
+                    var altura_topo = $(".header-site-devmedia").innerHeight();
+                    var altura_hello_bar = $(".under_hellobar_wrapper").innerHeight();
+
+                    var top_menu = altura_topo + altura_hello_bar;
+                    var subtrai_altura = 110 + altura_hello_bar;
+
+                    $(".menu_guiaExterna").css("cssText","top: 130px !important; height: calc(100vh - " + subtrai_altura + "px) !important;");
+                }
+                else
+                {
+                    var altura_topo = $(".header-site-devmedia").innerHeight();
+
+                    var subtrai_altura = 110;
+
+                    $(".menu_guiaExterna").css("cssText","top: 75px !important; height: calc(100vh - " + subtrai_altura + "px) !important;");	
+                }
+
+				if($(".under_hellobar_closed").length > 0)
+				{
+                    if($(window).scrollTop()<=5)
+                    {
+						$(".header-site-devmedia").removeClass("pos_relative i_pos_relative pos_fixed i_pos_fixed pos_absolute i_pos_absolute");
+						$(".header-site-devmedia").addClass("i_pos_relative");
+						$(".content-site-devmedia").removeClass("g_padding_top");
+                        /*$(".video-conteudo-area .aula-conteudo-wrapper").css("padding-top","0");
+                        $(".video-conteudo-area #projeto-topo").css("padding-top","0");*/
+                        $("#nav-projeto").css("top","75px");
+                    }
+                    else
+                    {
+						$(".header-site-devmedia").removeClass("pos_relative i_pos_relative pos_fixed i_pos_fixed pos_absolute i_pos_absolute");
+						$(".header-site-devmedia").addClass("i_pos_fixed");
+                        $(".content-site-devmedia").addClass("g_padding_top");
+                        /*$(".video-conteudo-area .aula-conteudo-wrapper").css("padding-top","75px");
+                        $(".video-conteudo-area #projeto-topo").css("padding-top","75px");*/
+                        $("#nav-projeto").css("top","75px");
+                    }
+                    $("#viewaula #menu-aula").css("top","75px");
+					$(".menu-aula-float-button").css("top","90px");
+				}
+				else
+				{
+                    if($(window).scrollTop()<=55)
+                    {
+                        $(".content-site-devmedia").removeClass("g_padding_top");
+                    }
+                    else
+                    {
+                        $(".content-site-devmedia").addClass("g_padding_top");
+                    }
+					$(".header-site-devmedia").removeClass("pos_relative i_pos_relative pos_fixed i_pos_fixed pos_absolute i_pos_absolute");
+                    $("header.header-site-devmedia").addClass("i_pos_relative");
+                    /*$(".video-conteudo-area .aula-conteudo-wrapper").css("padding-top","0");
+                    $(".video-conteudo-area #projeto-topo").css("padding-top","0");*/
+                    //$(".content-site-devmedia").removeClass("g_padding_top");
+                    $("#viewaula #menu-aula").css("top","130px");
+                    $("#nav-projeto").css("top","130px");
+                    $(".menu-aula-float-button").css("top","145px");
+				}
+			}
+	    }
+	</script>
+	<!-- FIM HELLO BAR DESTACK -->
+			
+			<header class="header-site-devmedia i_pos_fixed">
+				<nav class="lateral" style="height: 589px;">
+					<!-- MENU LATERAL -->
+				<style>
+header nav.lateral>ul li>a {
+    box-shadow: none !important;
+    }
+    header nav.lateral>ul hr{
+        width: 90%;
+    	border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    }
+</style>
+<ul style="height: 589px;">
+    <li>
+	    <strong>
+	    <a href="https://www.devmedia.com.br/series/#" rel="nofollow">
+			    <span class="font-dev">bem</span>
+				<span class="font-media">vindo</span>
+		</a>
+		</strong>
+	</li>
+	<li><a href="#" class="back" data-main="true">Voltar</a></li>
+    <hr>
+    <li><a href="#" rel="nofollow"><span class="icon2 pocketvideos"></span>Séries</a></li>
+    <li><a href="#" rel="nofollow"><span class="icon2 guias"></span>Linguagens</a></li>
+    <li><a href="#" rel="nofollow"><span class="icon2 app"></span>Projetos</a></li>
+    <li><a href="#" rel="nofollow" style="text-transform:uppercase;"><span class="icon2 pocketvideos"></span>Últimas atualizações</a></li>
+    <hr>
+    <li><a href="#" rel="nofollow">Códigos em vídeos</a></li>
+    <li><a href="#" rel="nofollow"><span class="icon2 guias"></span>Cursos</a></li>
+    <li><a href="#" rel="nofollow"><span class="icon2 cursos"></span>DevCast</a></li>
+    <hr>
+    <li><a href="#" rel="nofollow">Códigos em Artigos</a></li>
+    <li><a href="#" rel="nofollow"><span class="icon2 recomendado"></span>Artigos</a></li>
+    <hr>    
+    <li><a href="#" rel="nofollow"><span class="icon2 forum"></span>Fórum</a></li>
+    <li><a href="#" rel="nofollow"><span class="icon2 atendimento"></span>Fale conosco</a></li>
+</ul>
+
+<script>
+    $(function(){        
+        $(window).resize(function(){
+            $("header nav.lateral,header nav.lateral>ul").height(window.innerHeight);
+        });
+
+        $(document).on("click", "header .opacity,header nav.lateral", function(e){
+            if($(e.target).attr('class')=="lateral"){
+                $("header nav.lateral").fadeOut(100).find(".active").removeClass("active");
+            }
+
+            if (typeof unfixScreenDevMedia != undefined) {
+                unfixScreenDevMedia();
+            }
+        });
+        
+        $(document).on("click", "header .menu",function(event){
+            event.preventDefault();
+            $("header nav.lateral,header nav.lateral>ul").height(window.innerHeight);
+            $("header nav.lateral").css({"display":"table"});
+            $("header nav.lateral").fadeIn(100,function(){
+                $("header nav.lateral").css({"display":"block"});
+                $("header nav.lateral>ul").css({"display":"table"});
+            });
+            if (typeof fixScreenDevMedia != undefined) {
+                fixScreenDevMedia();
+            }
+        });
+        
+        $(document).on("click", "header nav.lateral li a", function(event){
+            if($(this).attr("href")=="#") event.preventDefault();
+            var alvo = $(this).parent().parent().find(".active");
+            if(alvo.length){event.preventDefault();alvo.removeClass("active");}
+            else{$(this).parent().children("ul").addClass("active");$("header nav.lateral").scrollTop(0);}
+        });
+        
+        $(document).on("click", "header nav.lateral li .home", function(){
+            $("header nav.lateral").find(".active").removeClass("active");
+        });
+
+        $(document).on("click", "header nav.lateral li .back", function(){
+            if($(this).data("main")==true){
+                $("header nav.lateral").fadeOut(100).find(".active").removeClass("active");
+                $("header .opacity").fadeOut(100);
+                $("body").css({"overflow":"auto"});
+            }else{
+                $(this).parent().parent().parent().find(".active").removeClass("active");
+            }
+        });
+    });
+</script></nav>
+		
+				<nav class="menu-topo-devmedia"> 
+					<!-- MENU MOBILE -->     
+					<div class="devmenu-mobile">
+						<i class="drop-mobile">
+							<a href="#" class="menu">
+								<span></span>
+								<span></span>
+								<span></span>
+							</a>
+						</i>
+						<a class="logo-mob" href="#">
+							<span class="font-dev-topo">UPRISING </span><span class="font-media-topo" style="font-size: 15px;color: #FF9326"><b>Blog</b></span>
+						</a>
+					</div>
+					<!-- FI MENU MOBILE -->     
+					<!-- MENU DESKTOP -->  
+					<div class="devmenu">
+						<img class="logo-devmedia-svg" title="UPRISING" src="../media/logo.png">
+
+						<nav class="menu-itens-devmedia">
+							<span class="menu-item-devmedia show-submenu-devmedia">Aprenda
+							<svg viewBox="0 0 7.453 4.647" class="img-seta-menu">
+							<path class="img-seta-menu-path" d="M18.9,6.556l2.851-2.851L18.9.9" transform="translate(7.454 -18.002) rotate(90)"></path>
+							</svg>
+								<nav class="submenu-itens-devmedia">
+									<a href="#" class="submenu-item-devmedia">Séries</a>
+									<a href="#" class="submenu-item-devmedia">Cursos</a>
+									<a href="#" class="submenu-item-devmedia">Linguagens</a>
+									<hr class="line-submenu">
+									<a href="#" class="submenu-item-devmedia">DevCast</a>
+									<a href="#" class="submenu-item-devmedia">Artigos</a>
+								</nav>
+							</span>
+							<a class="menu-item-devmedia menu-projeto-devmedia" href="#">Projetos</a>
+							<a class="menu-item-devmedia menu-forum-devmedia" href="#">Fórum</a>
+						</nav>
+					</div>
+					<!-- FIM MENU DESKTOP -->  
+
+				</nav>
+			</header>
+
+			<main class="content-site-devmedia g_padding_top"><div class="series-wrapper">
+    <div class="series-content">
+        <div class="series-container">
+            <div class="series-cards-container">
+                <!-- card -->
+                {% block conteudo %}
+                {% endblock %}
+                <!-- card -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+ $(".series-container").on("mouseup", ".card-image, .card-name", function(e){
+    var block = $(this).parents(".series-card");
+    var link = block.find(".card-cta");
+    var url = link[0].href;
+
+    if(e.which == 1){
+        if(e.ctrlKey || e.shiftKey){
+            window.open(url);
+        }else if(e.altKey){
+            return false;
+        }else{
+            window.location = url;
+        }
+    }else if(e.which == 2){
+        window.open(url);
+    }
+});
+</script>
+</main>
+<footer class="main-footer">
+		<div class="column-footer column-footer-1">
+			<a rel="nofollow" class="porta80">Todos os Direitos Reservados.</a>
+		</div>
+		<div class="column-footer column-footer-2">
+			<p class="title-footer-topics">Tecnologias
+			</p><div class="tecnology-footer">	
+				<div class="sub-columns">
+					<a href="#">Front-End</a>
+					<a href="#">PHP</a>
+					<a href="#">Java</a>
+				</div>
+				<div class="sub-columns">
+					<a href="#">Python</a>
+					<a href="#">Mobile</a>
+					<a href="#">Banco de Dados</a>
+				</div>
+				<div class="sub-columns">
+					<a href="#">APIs</a>
+					<a href="#">Fale conosco</a>
+				</div>
+			</div>
+		</div>
+		<a class="porta80 porta80-mobile">Todos os Direitos Reservados.</a>
+
+	</footer>
+	<style>
+		/* * { padding: 0; margin: 0; } */
+		footer.main-footer { font-family: 'Montserrat', sans-serif; display: flex; flex-direction: column; align-items: center; padding: 30px 0; background: #f8fafb; }
+		footer.main-footer a { text-decoration: none; display: block; margin-bottom: 20px; }
+		footer.main-footer .column-footer { display: flex; flex-direction: column; padding: 0 5px; }
+		footer.main-footer .column-footer-2 { text-align: center; margin: 25px 0; }
+		footer.main-footer .column-footer-2 .title-footer-topics { display: none; }
+		footer.main-footer .column-footer-3 { display: none; }
+		footer.main-footer .column-footer-4 { flex-direction: row; }
+		footer.main-footer .column-footer.column-footer-1 { justify-content: space-between; }
+		footer.main-footer .column-footer.column-footer-1 a.porta80 { display: none; }
+		footer.main-footer .tecnology-footer { display: flex; flex-direction: row; }
+		footer.main-footer .tecnology-footer .sub-columns { display: flex; flex-direction: column; }
+		footer.main-footer .tecnology-footer .sub-columns:first-child { margin-right: 65px; }
+		footer.main-footer .logo-footer-dev svg { width: 143px; height: 33px; }
+		footer.main-footer svg .path-svg-footer { fill: #8795A2; transition: all .2s ease; }
+		footer.main-footer a.icons-footer { margin-bottom: 0; margin-right: 20px; }
+		footer.main-footer a.icons-footer:last-child { margin-right: 0; }
+		footer.main-footer a.icons-footer svg { width: 30px; height: 30px; }
+		footer.main-footer .title-footer-topics { font-size: 14px; color: #C6CDD3; font-weight: 500; margin: 0 0 20px; }
+		footer.main-footer a { font-size: 14px; font-weight: 400; color: #8795A2; transition: all .2s ease; }
+		footer.main-footer .porta80 { font-size: 11px; font-weight: 300; }
+		footer.main-footer .porta80-mobile { margin-top: 15px; }
+		footer.main-footer .column-footer:first-child, footer.main-footer .column-footer:last-child { padding: 0px; }
+
+		@media screen and (min-width: 768px){
+			footer.main-footer .column-footer-2 { flex-direction: row; }			
+			footer.main-footer .column-footer-2 a { margin: 0 15px 0 0; }			
+			footer.main-footer .column-footer-2 a:last-child { margin-right: 0; }			
+		}
+	
+		@media screen and (min-width: 1024px){
+			footer.main-footer { flex-direction: row; justify-content: space-between; padding: 30px 60px; align-items: normal; }
+			footer.main-footer .column-footer-2 { text-align: left; margin: 0; flex-direction: column; }
+			footer.main-footer .column-footer-2 a { margin: 0 0 20px 0; }			
+			footer.main-footer .column-footer-2 .title-footer-topics { display: block; }
+			footer.main-footer .column-footer-3 { display: block; }
+			footer.main-footer .column-footer-4 { flex-direction: column; }
+			footer.main-footer .column-footer.column-footer-1 { justify-content: space-between; }
+			footer.main-footer .column-footer.column-footer-1 a.porta80 { display: block; }			
+			footer.main-footer .tecnology-footer { flex-direction: row; }
+			footer.main-footer .tecnology-footer .sub-columns:first-child { margin-right: 65px; }
+			footer.main-footer a.icons-footer { margin-right: 0px; }
+			footer.main-footer .porta80-mobile { display: none; }
+			footer.main-footer a:hover { color: #373737; transform: scale(1.04); }
+			footer.main-footer a.icons-footer:hover .path-svg-footer { fill: #373737; }
+		}
+	</style>
+
+</section><div class="pushcrew-side-button pushcrew-chicklet-position-hc" style="background-color: rgb(123, 172, 59) !important; color: rgb(255, 255, 255) !important;"><svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-57.000000, -45.000000)"><g transform="translate(57.000000, 46.000000)"><path d="M0.508701521,0.740161403 L12.8787014,0.542093186 L12.8787014,9.93945338 L4.88268796,9.93945338" stroke="#FFFFFF" stroke-width="2" style="stroke: rgb(255, 255, 255);"></path><rect fill="#FFFFFF" x="1" y="3" width="3" height="1" style="fill: rgb(255, 255, 255);"></rect><rect fill="#FFFFFF" x="3" y="5" width="3" height="1" style="fill: rgb(255, 255, 255);"></rect><rect fill="#FFFFFF" x="5" y="7" width="3" height="1" style="fill: rgb(255, 255, 255);"></rect></g></g></g></svg></div><script src="../media/adsct" type="text/javascript"></script></body></html>
